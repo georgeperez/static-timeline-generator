@@ -1,33 +1,67 @@
-const header = 'Welcome to this wonderful example timeline.';
-const footer = 'A footer goes here.';
+const header = '🇵🇷🇵🇸';
+const footer = 'Desde el río hasta el mar, Palestina libre será.';
 const entries = [
   {
-    id: 'cat',
-    categories: ['cat'],
-    color: 'green',
-    faicon: 'cat',
-    datetime: '2021-01-01 05:00',
-    title: 'Cats are very good',
-    image: {
-      link: 'http://placekitten.com',
-      src: 'http://placekitten.com/200/300',
-      alt: 'A placeholder kitten',
-      caption: 'Kitten!',
-    },
-    body: "The best thing in the universe is a cardboard box. Chirp at birds catasstrophe for meowwww for hiding behind the couch until lured out by a feathery toy for morning beauty routine of licking self sugar, my siamese, stalks me (in a good way), day and night lick the other cats. Pushed the mug off the table shove bum in owner's face like camera lens or tickle my belly at your own peril i will pester for food when you're in the kitchen even if it's salad and grass smells good, licks your face, but hiiiiiiiiii feed me now.",
+    id: 'zionism-is-born',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1897-08-29',
+    title: 'Se establece sionismo como ideología política por Theodor Herzl',
+    body: 'En el Primer Congreso Sionista, llevado acabo entre el 29 y 31 de agosto del 1897 en Basilea, Suiza se establece lo que hoy día se conoce como sionismo. En especifico, sionismo concentrado en el establecimiento de un hogar para Judios en el territorio de Palestina Histórica.',
+    links: [
+      {
+        href: 'http://www.jewishvirtuallibrary.org/jsource/Zionism/First_Cong_&_Basel_Program.html',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'us-invasion-of-pr',
+    categories: ['Puerto Rico'],
+    color: 'azul-celeste',
+    date: '1898-06-25',
+    title: 'Los Estados Unidos invade Puerto Rico',
+    body: "Los Estados Unidos invade a Puerto Rico por la Bahía de Guánica, comenzando su campaña militar en el archipielago.",
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Cat',
-        linkText: 'Cat',
+        linkText: 'Fuente',
       },
     ],
   },
   {
     id: 'dog',
-    categories: ['dog'],
-    color: 'green',
-    faicon: 'dog',
-    datetime: '2021-05-01 23:55',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1897-08-29',
+    title: 'Puppies are great too',
+    image: {
+      link: 'http://place-puppy.com',
+      src: 'https://place-puppy.com/300x300',
+      alt: 'A placeholder puppy',
+      caption: 'Puppy!',
+    },
+    body: 'Doggo ipsum sub woofer smol wow very biscit aqua doggo pupper dat tungg tho big ol pupper, very jealous pupper mlem heckin angery woofer very jealous pupper. Blep waggy wags long doggo, corgo. Tungg wow such tempt mlem very jealous pupper boofers lotsa pats, snoot smol big ol ruff doge super chub, long doggo heckin good boys and girls h*ck heck. Shoober blop many pats borkf, such treat. Big ol what a nice floof long water shoob wrinkler heck sub woofer, pupper porgo wow very biscit.',
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Dog',
+        linkText: 'Dog',
+      },
+      {
+        href: 'https://en.wikipedia.org/wiki/Canis',
+        linkText: 'Canis',
+      },
+      {
+        href: 'https://en.wikipedia.org/wiki/Lassie',
+        linkText: 'Lassie',
+      },
+    ],
+  },
+  {
+    id: 'dog',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '2021-05-01 23:55',
     title: 'Puppies are great too',
     image: {
       link: 'http://place-puppy.com',

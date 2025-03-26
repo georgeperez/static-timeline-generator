@@ -22,12 +22,12 @@
           <ul>
             <li>
               <input type="checkbox" name="filter-shortcut" id="all" checked />
-              <label for="all">All</label>
+              <label for="all">Todos</label>
             </li>
             <% content.filters.forEach(function(filter){ %>
             <li>
               <input type="checkbox" name="filter" id="<%= filter %>" checked />
-              <label for="<%= filter %>"><%- utilities.sentenceCase(filter) %> </label>
+              <label for="<%= filter %>"><%- utilities.sentenceCaseCapitalize(filter) %> </label>
             </li>
             <% }); %>
           </ul>
@@ -40,7 +40,7 @@
           data-category="<%= entry.categoriesString %>"
           aria-hidden="false"
         >
-          <div class="timeline-icon <%- entry.color || 'grey' %>" title="<%= entry.faicon %>">
+          <div class="timeline-icon <%- entry.color || 'red' %>" title="<%= entry.faicon %>">
             <% if (entry.faicon) { %>
             <i class="fas fa-<%= entry.faicon %>" aria-hidden="true"></i>
             <% } %>
@@ -99,10 +99,10 @@
       </p>
       <% } %>
       <p>
-        Built with Molly White's
+        Construido con el
         <a href="https://github.com/molly/static-timeline-generator" target="_blank"
           >static timeline generator</a
-        >.
+        > de  Molly White.
       </p>
     </footer>
     <% } %>

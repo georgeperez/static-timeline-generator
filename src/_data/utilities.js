@@ -8,12 +8,20 @@ const sentenceCase = function (str) {
   return str[0].toUpperCase() + str.slice(1).toLowerCase();
 };
 
+const sentenceCaseCapitalize = function (str) {
+  if (typeof str !== 'string' || !str.length) {
+    return str;
+  }
+  str = str.replace(/-/g, ' ');
+  return str;
+};
+
 const humanizeDate = function (datetime, date) {
   const m = moment(datetime || date);
   if (datetime) {
-    return m.format('LLL');
+    return m.locale("es-us").format('LLL');
   }
-  return m.format('LL');
+  return m.locale("es-us").format('LL');
 };
 
 const isWrappedInParagraphTags = function (html) {
@@ -25,6 +33,7 @@ const isWrappedInParagraphTags = function (html) {
 
 module.exports = {
   sentenceCase,
+  sentenceCaseCapitalize,
   humanizeDate,
   isWrappedInParagraphTags,
 };
