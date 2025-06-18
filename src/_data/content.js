@@ -20,8 +20,8 @@ const entries = [
     categories: ['Puerto Rico'],
     color: 'azul-celeste',
     date: '1898-06-25',
-    title: 'Los Estados Unidos invade Puerto Rico',
-    body: "Los Estados Unidos invade a Puerto Rico por la Bahía de Guánica, comenzando su campaña militar en el archipielago.",
+    title: 'Los Estados Unidos de América invade Puerto Rico',
+    body: 'Los Estados Unidos de América invade a Puerto Rico por la Bahía de Guánica, comenzando su campaña militar en el archipielago. En ese mismo año, se firma el Tratado de Paris de 1898 en donde España cede Cuba, Filipinas, Guam y Puerto Rico a los Estados Unidos.',
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Cat',
@@ -30,18 +30,12 @@ const entries = [
     ],
   },
   {
-    id: 'dog',
+    id: 'Balfour',
     categories: ['Palestina'],
     color: 'red',
-    date: '1897-08-29',
-    title: 'Puppies are great too',
-    image: {
-      link: 'http://place-puppy.com',
-      src: 'https://place-puppy.com/300x300',
-      alt: 'A placeholder puppy',
-      caption: 'Puppy!',
-    },
-    body: 'Doggo ipsum sub woofer smol wow very biscit aqua doggo pupper dat tungg tho big ol pupper, very jealous pupper mlem heckin angery woofer very jealous pupper. Blep waggy wags long doggo, corgo. Tungg wow such tempt mlem very jealous pupper boofers lotsa pats, snoot smol big ol ruff doge super chub, long doggo heckin good boys and girls h*ck heck. Shoober blop many pats borkf, such treat. Big ol what a nice floof long water shoob wrinkler heck sub woofer, pupper porgo wow very biscit.',
+    date: '1906-11-07',
+    title: 'Declaración de Balfour',
+    body: 'La Declaración de Balfour fue el escrito formal público por parte del gobierno brítanico en la Primera Guerra Mundial donde anuncia su apoyo para el establecimiento de un "hogar nacional" para el pueblo judío  en la región de Palestina Histórica.',
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Dog',
@@ -58,39 +52,31 @@ const entries = [
     ],
   },
   {
-    id: 'dog',
-    categories: ['Palestina'],
-    color: 'red',
-    date: '2021-05-01 23:55',
-    title: 'Puppies are great too',
+    id: 'ley-jones',
+    categories: ['Puerto Rico'],
+    color: 'azul-celeste',
+    date: '1917-03-02',
+    title: 'La ley Jones-Shafroth es firmada, otorgando ciudadania estadounidense a Boricuas',
     image: {
       link: 'http://place-puppy.com',
       src: 'https://place-puppy.com/300x300',
       alt: 'A placeholder puppy',
       caption: 'Puppy!',
     },
-    body: 'Doggo ipsum sub woofer smol wow very biscit aqua doggo pupper dat tungg tho big ol pupper, very jealous pupper mlem heckin angery woofer very jealous pupper. Blep waggy wags long doggo, corgo. Tungg wow such tempt mlem very jealous pupper boofers lotsa pats, snoot smol big ol ruff doge super chub, long doggo heckin good boys and girls h*ck heck. Shoober blop many pats borkf, such treat. Big ol what a nice floof long water shoob wrinkler heck sub woofer, pupper porgo wow very biscit.',
+    body: 'La ley Jones-Shafroth establece el Senado de Puerto Rico, la posición del Comisiondo Residente como una cargo sujeto a elecciones, y otorga ciudadania estadounidense a Boricuas en Puerto Rico. ',
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Dog',
         linkText: 'Dog',
-      },
-      {
-        href: 'https://en.wikipedia.org/wiki/Canis',
-        linkText: 'Canis',
-      },
-      {
-        href: 'https://en.wikipedia.org/wiki/Lassie',
-        linkText: 'Lassie',
       },
     ],
   },
 ];
 
 // Page details
-const pageTitle = 'Static timeline generator'; // The title of the page that shows in the browser tab
-const pageDescription = 'A super fancy timeline'; // The description of the page for search engines
-const pageAuthor = 'Jane Doe'; // Your name
+const pageTitle = 'Línea de Tiempo - Palestina y Puerto Rico';
+const pageDescription = '';
+const pageAuthor = '';
 const showMirrorLinks = true; // Whether to show links to the Wayback Machine and archive.is mirrors.
 
 // DON'T EDIT BELOW THIS LINE! --------------------------------------------------------------------
