@@ -1,4 +1,4 @@
-const header = '🇵🇷🇵🇸';
+const header = 'Puerto Rico y Palestina';
 const footer = 'Desde el río hasta el mar, Palestina libre será.';
 const entries = [
   {
@@ -57,17 +57,349 @@ const entries = [
     color: 'azul-celeste',
     date: '1917-03-02',
     title: 'La ley Jones-Shafroth es firmada, otorgando ciudadania estadounidense a Boricuas',
-    image: {
-      link: 'http://place-puppy.com',
-      src: 'https://place-puppy.com/300x300',
-      alt: 'A placeholder puppy',
-      caption: 'Puppy!',
-    },
-    body: 'La ley Jones-Shafroth establece el Senado de Puerto Rico, la posición del Comisiondo Residente como una cargo sujeto a elecciones, y otorga ciudadania estadounidense a Boricuas en Puerto Rico. ',
+    body: 'La ley Jones-Shafroth establece el Senado de Puerto Rico, la posición del Comisionada Residente como una cargo sujeto a elecciones, y otorga ciudadania estadounidense a Boricuas en Puerto Rico. ',
     links: [
       {
         href: 'https://en.wikipedia.org/wiki/Dog',
-        linkText: 'Dog',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'gran-revuelta-palestina',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1936-04-19',
+    endDate: '1939-08-26',
+    title: 'La Gran Revuelta Palestina comienza',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'masacre-de-rio-piedras',
+    categories: ['Puerto Rico'],
+    color: 'azul-celeste',
+    date: '1935-10-24',
+    title: 'Masacre de Río Piedras',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'black-sunday-1937',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1937-11-14',
+    title: 'Masacre "Black Sunday" de 1937',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'masacre-de-ponce',
+    categories: ['Puerto Rico'],
+    color: 'azul-celeste',
+    date: '1937-03-21',
+    title: 'Masacre de Ponce',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'white-paper-1939',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1939-05-23',
+    title: 'El Libro Blanco de 1939',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'ciudadania-constitucional',
+    categories: ['Puerto Rico'],
+    color: 'azul-celeste',
+    date: '1940-10-14',
+    title: 'Se le otorga ciudadania constitucional a Boricuas por parte de los Estados Unidos',
+    body: '',
+    links: [
+      {
+        href: 'https://en.wikipedia.org/wiki/Nationality_Act_of_1940',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'nakba',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1947-12-31',
+    endDate: 'present',
+    title: 'Nakba: "La Gran Catástrofe"',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'ocupacion-vieques',
+    categories: ['Puerto Rico'],
+    color: 'azul-celeste',
+    date: '1941-11',
+    title: 'Vieques es ocupado y comienza la primera ola de tierras expropiadas por la Marina de los Estados Unidos',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'segunda-ola-vieques',
+    categories: ['Puerto Rico'],
+    color: 'azul-celeste',
+    date: '1947',
+    endDate: '1948',
+    title: 'Segunda ola de ocupación y expropiación de tierra de Vieques por la Marina de los Estados Unidos',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'ley-propiedad-ausente',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1950',
+    title: 'Ley de Propiedad Ausente',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'gran-revuelta-palestina',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1936-04-19',
+    endDate: '1939-08-26',
+    title: 'La Gran Revuelta Palestina comienza',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'gran-revuelta-palestina',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1936-04-19',
+    endDate: '1939-08-26',
+    title: 'La Gran Revuelta Palestina comienza',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'gran-revuelta-palestina',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1936-04-19',
+    endDate: '1939-08-26',
+    title: 'La Gran Revuelta Palestina comienza',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'gran-revuelta-palestina',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1936-04-19',
+    endDate: '1939-08-26',
+    title: 'La Gran Revuelta Palestina comienza',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'gran-revuelta-palestina',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1936-04-19',
+    endDate: '1939-08-26',
+    title: 'La Gran Revuelta Palestina comienza',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'gran-revuelta-palestina',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1936-04-19',
+    endDate: '1939-08-26',
+    title: 'La Gran Revuelta Palestina comienza',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'gran-revuelta-palestina',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1936-04-19',
+    endDate: '1939-08-26',
+    title: 'La Gran Revuelta Palestina comienza',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'gran-revuelta-palestina',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1936-04-19',
+    endDate: '1939-08-26',
+    title: 'La Gran Revuelta Palestina comienza',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'gran-revuelta-palestina',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1936-04-19',
+    endDate: '1939-08-26',
+    title: 'La Gran Revuelta Palestina comienza',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'gran-revuelta-palestina',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1936-04-19',
+    endDate: '1939-08-26',
+    title: 'La Gran Revuelta Palestina comienza',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'gran-revuelta-palestina',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1936-04-19',
+    endDate: '1939-08-26',
+    title: 'La Gran Revuelta Palestina comienza',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'gran-revuelta-palestina',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1936-04-19',
+    endDate: '1939-08-26',
+    title: 'La Gran Revuelta Palestina comienza',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
+      },
+    ],
+  },
+  {
+    id: 'gran-revuelta-palestina',
+    categories: ['Palestina'],
+    color: 'red',
+    date: '1936-04-19',
+    endDate: '1939-08-26',
+    title: 'La Gran Revuelta Palestina comienza',
+    body: '',
+    links: [
+      {
+        href: 'https://es.wikipedia.org/wiki/Revuelta_%C3%A1rabe_de_Palestina_de_1936-1939',
+        linkText: 'Fuente',
       },
     ],
   },

@@ -111,27 +111,6 @@ footer.page-footer
 	text-align: center
 	vertical-align: middle
 	z-index: 2
-	display: flex
-	align-items: center
-	justify-content: center
-	position: relative
-
-	&::after
-		content: ""
-		position: absolute
-		width: 0
-		height: 0
-		border-left: 15px solid transparent
-		border-right: 15px solid transparent
-		border-top: 20px solid currentColor // Triangle inherits dynamic color
-		top: 30% // Adjusts the triangle position downward
-		left: 50%
-		transform: translate(-50%, 0%) // Centering and slight downward adjustment
-		/* ICON COLORS */
-		@each $name, $color in $icon-colors
-			&.#{$name}
-				color: $color
-
 
 	i
 		color: $timeline-icon-color
