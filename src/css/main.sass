@@ -39,6 +39,11 @@ footer.page-footer
 	a
 		color: $header-footer-link-color
 
+header.page-header
+	p
+		font-size: 2rem
+		font-weight: bold
+
 .linkMirrors
 	color:999
 	font-size:75%
@@ -95,9 +100,20 @@ footer.page-footer
 	&.short
 		margin-top: -50px
 
-	&.odd
+	// Default alternating behavior (for entries without specific positioning)
+	&.odd:not(.timeline-left):not(.timeline-right)
 		.timeline-description
 			margin-left: 55%
+
+	// Force Palestine entries to the right
+	&.timeline-right
+		.timeline-description
+			margin-left: 55%
+
+	// Force Puerto Rico entries to the left
+	&.timeline-left
+		.timeline-description
+			margin-left: 0
 
 .timeline-icon
 	position: absolute
@@ -216,12 +232,20 @@ footer.page-footer
 
 /* RESPONSIVENESS */
 @media only screen and (min-width: 769px)
-	.timeline-entry.even .timeline-description:after
+	.timeline-entry.even:not(.timeline-left):not(.timeline-right) .timeline-description:after
 		left: 100%
 		border-left-color: $card-background
+	
+	.timeline-entry.timeline-right .timeline-description:after
+		right: 100%
+		border-right-color: $card-background
 
 @media only screen and (max-width: 768px) and (min-width: 415px)
-	.timeline-entry.even .timeline-description:after
+	.timeline-entry.even:not(.timeline-left):not(.timeline-right) .timeline-description:after
+		right: 100%
+		border-right-color: $card-background
+	
+	.timeline-entry.timeline-right .timeline-description:after
 		right: 100%
 		border-right-color: $card-background
 
@@ -238,9 +262,13 @@ footer.page-footer
 		margin-top: -10px
 		z-index: 100
 
-	.timeline-entry.odd .timeline-description:after
+	.timeline-entry.odd:not(.timeline-right):not(.timeline-left) .timeline-description:after
 		right: 100%
 		border-right-color: $card-background
+	
+	.timeline-entry.timeline-left .timeline-description:after
+		left: 100%
+		border-left-color: $card-background
 
 @media only screen and (max-width: 768px)
 	.timeline::before,
@@ -252,7 +280,9 @@ footer.page-footer
 		margin-top: 25px
 
 	.timeline-entry.odd .timeline-description,
-	.timeline-entry.even .timeline-description
+	.timeline-entry.even .timeline-description,
+	.timeline-entry.timeline-left .timeline-description,
+	.timeline-entry.timeline-right .timeline-description
 		margin-left: 50px
 
 	.timeline-description
@@ -277,7 +307,9 @@ footer.page-footer
 			line-height: 30px
 
 	.timeline-entry.odd .timeline-description,
-	.timeline-entry.even .timeline-description
+	.timeline-entry.even .timeline-description,
+	.timeline-entry.timeline-left .timeline-description,
+	.timeline-entry.timeline-right .timeline-description
 		margin-left: 35px
 
 // DARK MODE
@@ -330,16 +362,25 @@ footer.page-footer
 		border-right-color: $dark-card-background
 
 	@media only screen and (min-width: 769px)
-		.timeline-entry.even .timeline-description::after
+		.timeline-entry.even:not(.timeline-left):not(.timeline-right) .timeline-description::after
 			border-left-color: $dark-card-background
+		
+		.timeline-entry.timeline-right .timeline-description::after
+			border-right-color: $dark-card-background
 
 	@media only screen and (max-width: 768px) and (min-width: 415px)
-		.timeline-entry.even .timeline-description::after
+		.timeline-entry.even:not(.timeline-left):not(.timeline-right) .timeline-description::after
+			border-right-color: $dark-card-background
+		
+		.timeline-entry.timeline-right .timeline-description::after
 			border-right-color: $dark-card-background
 
 	@media only screen and (min-width: 415px)
-		.timeline-entry.odd .timeline-description::after
+		.timeline-entry.odd:not(.timeline-right):not(.timeline-left) .timeline-description::after
 			border-right-color: $dark-card-background
+		
+		.timeline-entry.timeline-left .timeline-description::after
+			border-left-color: $dark-card-background
 
 // NO JS FALLBACK
 .no-js
