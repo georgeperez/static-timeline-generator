@@ -2,7 +2,7 @@ const header = 'Puerto Rico y Palestina';
 const footer = 'Desde el río hasta el mar, Palestina libre será.';
 const entries = [
   {
-    id: 'zionism-is-born',
+    id: 'sionismo',
     categories: ['Palestina'],
     color: 'red',
     date: '1897',
@@ -16,7 +16,7 @@ const entries = [
     ],
   },
   {
-    id: 'us-invasion-of-pr',
+    id: 'invasion-pr',
     categories: ['Puerto Rico'],
     color: 'azul-celeste',
     date: '1898',
@@ -147,7 +147,8 @@ const entries = [
     categories: ['Puerto Rico'],
     color: 'azul-celeste',
     date: '1941',
-    title: 'Vieques es ocupado y comienza la primera ola de tierras expropiadas por la Marina de los Estados Unidos',
+    title:
+      'Vieques es ocupado y comienza la primera ola de tierras expropiadas por la Marina de los Estados Unidos',
     body: 'Lorem ipsum',
     links: [
       {
@@ -177,7 +178,8 @@ const entries = [
     color: 'azul-celeste',
     date: '1947',
     endDate: '1948',
-    title: 'Segunda ola de ocupación y expropiación de tierra de Vieques por la Marina de los Estados Unidos',
+    title:
+      'Segunda ola de ocupación y expropiación de tierra de Vieques por la Marina de los Estados Unidos',
     body: 'Lorem ipsum',
     links: [
       {
@@ -191,7 +193,7 @@ const entries = [
     categories: ['Puerto Rico'],
     color: 'azul-celeste',
     date: '1947',
-    title: 'Operación Boostrap',
+    title: 'Operación Bootstrap',
     body: '"Jibaros sn despojados a la Ciudad" y crea un éxodo',
     links: [
       {
@@ -234,7 +236,8 @@ const entries = [
     categories: ['Puerto Rico'],
     color: 'azul-celeste',
     date: '1950',
-    title: 'La resistencia planifica una revolución y el estado responde con el bombardeo de Utuado y Jayuya',
+    title:
+      'La resistencia planifica una revolución y el estado responde con el bombardeo de Utuado y Jayuya',
     body: 'Lorem ipsum',
     links: [
       {
@@ -291,7 +294,7 @@ const entries = [
     categories: ['Puerto Rico'],
     color: 'azul-celeste',
     date: '1967',
-    title: 'Estado Libre Asociado gana el voto de mayoria en el referendum de estatus del 1967',
+    title: 'El Estado Libre Asociado gana el voto de mayoria en el referendum de estatus del 1967',
     body: 'Lorem ipsum',
     links: [
       {
@@ -305,8 +308,8 @@ const entries = [
     categories: ['Palestina'],
     color: 'red',
     date: '1967',
-    title: 'Ley Mordaza ilegaliza la bandera de Palestina',
-    body: 'De esta ley nace el simbolo de la sandía. En el 1980, se extiende ilegalizando el arte con colores rojos, verdes, negros, y blancos.',
+    title: 'Ley Mordaza de Palestina',
+    body: 'Se ilegaliza la bandera Palestina y nace el simbolo de la sandía. En el 1980, se extiende ilegalizando el arte con colores rojos, verdes, negros, y blancos.',
     links: [
       {
         href: '',
@@ -362,7 +365,8 @@ const entries = [
     categories: ['Puerto Rico'],
     color: 'azul-celeste',
     date: '1981',
-    title: 'Los Macheteros destruyen 6 aviones A-7 Corsair II en el la base Muñiz Guardia Nacional Aérea',
+    title:
+      'Los Macheteros destruyen 6 aviones A-7 Corsair II en el la base Muñiz Guardia Nacional Aérea',
     body: 'Lorem ipsum',
     links: [
       {
@@ -391,7 +395,8 @@ const entries = [
     categories: ['Puerto Rico'],
     color: 'azul-celeste',
     date: '1993',
-    title: 'El ELA nuevamente gana el voto de mayoría en el segundo referendum acerca del estatus de Puerto Rico',
+    title:
+      'El ELA nuevamente gana el voto de mayoría en el segundo referendum acerca del estatus de Puerto Rico',
     body: 'Lorem ipsum',
     links: [
       {
@@ -443,11 +448,12 @@ const entries = [
     ],
   },
   {
-    id: 'referendim-ela-3',
+    id: 'referendum-ela-3',
     categories: ['Puerto Rico'],
     color: 'azul-celeste',
     date: '1998',
-    title: 'En el tercer referendum sobre el estatus, ninguna opción logra ganar una mayoría del voto',
+    title:
+      'En el tercer referendum sobre el estatus, ninguna opción logra ganar una mayoría del voto',
     body: 'Lorem ipsum',
     links: [
       {
