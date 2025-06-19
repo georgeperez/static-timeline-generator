@@ -10,8 +10,12 @@ const entries = [
     body: 'En el Primer Congreso Sionista, llevado acabo entre el 29 y 31 de agosto del 1897 en Basilea, Suiza se establece lo que hoy día se conoce como sionismo. En especifico, sionismo concentrado en el establecimiento de un hogar para Judios en el territorio de Palestina Histórica.',
     links: [
       {
-        href: '',
-        linkText: 'Fuente',
+        href: 'https://en.wikipedia.org/wiki/First_Zionist_Congress',
+        linkText: 'Wikipedia',
+      },
+      {
+        href: 'https://books.google.com.pr/books?id=PqFVRQV-Bb0C&pg=PA98&redir_esc=y',
+        linkText: 'A Treasury of Jewish Anecdotes',
       },
     ],
   },
